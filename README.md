@@ -2,5 +2,5 @@
 
 
 
-- [Deploy to AWS using Elastic Beanstalk](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/](http://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/ "Deploy to AWS using Elastic Beanstalk")
+- [Deploy to AWS using Elastic Beanstalk](https://aws.amazon.com/visualstudio/)
 - [Continuous Integration with Appveyor](https://www.appveyor.com/)
