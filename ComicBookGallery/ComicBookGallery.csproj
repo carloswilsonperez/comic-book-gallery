@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Components\HtmlExtensionsImage.cs" />
     <Compile Include="Controllers\ComicBooksController.cs" />
     <Compile Include="Data\ComicBookRepository.cs" />
     <Compile Include="Global.asax.cs">
