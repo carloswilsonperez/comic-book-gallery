@@ -3,6 +3,7 @@ using ComicBookGallery.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -29,10 +30,15 @@ namespace ComicBookGallery.Controllers
         {
             if (id == null)
             {
-                return HttpNotFound();
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
             var comicBook = _comicBookRepository.GetComicBook(id.Value);
+
+            if (comicBook == null)
+            {
+                return HttpNotFound();
+            }
 
             return View(comicBook);
 
