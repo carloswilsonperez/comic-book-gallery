@@ -10,6 +10,6 @@ This project allows me to really understand what is going on. I both enjoying bu
 - [x] Centralize the Data
 - [x] Add the Series Repository
 - [x] Add the Series List Page
-- [ ] Add the Series Detail Page
+- [x] Add the Series Detail Page
 - [ ] Remove Duplicated View Code
 - [ ] Add a Tweet button to the Detail View
