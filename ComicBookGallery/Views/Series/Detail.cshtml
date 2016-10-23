@@ -24,7 +24,7 @@
                 @Html.ActionLink(comicBook.DisplayText, "Detail", "ComicBooks",
                   new { id = comicBook.Id }, null)
             </h5>
-            <a href="@Url.Action("Detail", new { id = comicBook.Id })">
+            <a href="@Url.Action("Detail", "ComicBooks", new { id = comicBook.Id })">
                 @Html.Image(@comicBook.CoverImageFileName,
                      @comicBook.DisplayText,
                      "img-responsive")
