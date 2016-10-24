@@ -6,19 +6,4 @@
 
 <h3>@ViewBag.Title</h3>
 
-<div class="row">
-    @foreach (var comicBook in Model)
-    {
-        <div class="col-md-3">
-            <h5>
-                @Html.ActionLink(comicBook.DisplayText, "Detail",
-                  new { id = comicBook.Id })
-            </h5>
-            <a href="@Url.Action("Detail", new { id = comicBook.Id })">
-                @Html.Image(@comicBook.CoverImageFileName,
-                     @comicBook.DisplayText,
-                     "img-responsive")
-            </a>
-        </div>
-    }
-</div>
+@Html.Partial("_ComicBooksList", Model)
