@@ -11,5 +11,5 @@ This project allows me to really understand what is going on. I both enjoying bu
 - [x] Add the Series Repository
 - [x] Add the Series List Page
 - [x] Add the Series Detail Page
-- [ ] Remove Duplicated View Code
-- [ ] Add a Tweet button to the Detail View
+- [x] Remove Duplicated View Code
+- [x] Add a Tweet button to the Detail View
