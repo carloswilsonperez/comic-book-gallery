@@ -13,3 +13,12 @@ This project allows me to really understand what is going on. I both enjoying bu
 - [x] Add the Series Detail Page
 - [x] Remove Duplicated View Code
 - [x] Add a Tweet button to the Detail View
+
+### Refactor with Separation of Concerns in Mind ##
+
+
+Revisit the basic architecture and modify to make code more 
+	- readable 
+	- maintainable
+	- manageable
+	- testable
